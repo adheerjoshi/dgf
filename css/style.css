@@ -564,7 +564,7 @@ font-size: 1rem;
 		--swipper-pagination-bullet-horizontal-gap: 5px;
 	}*/
 	.swiper {
-		width: 370px;
+		width: 340px;
 		height: 450px;
 		position: absolute;
 		/*left: 50%;
