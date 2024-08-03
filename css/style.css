@@ -563,6 +563,15 @@ font-size: 1rem;
 		--swiper-pagination-bullet-size: 10px;
 		--swipper-pagination-bullet-horizontal-gap: 5px;
 	}*/
+	.services-slide{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 58vh;
+	width: 100%; 
+/*	background: #ddd;*/
+	
+}
 	.swiper {
 		width: 340px;
 		height: 450px;
@@ -572,6 +581,12 @@ font-size: 1rem;
 		margin-left: -150px;
 		margin-top: -150px;*/
 	  }
+	.button2{
+	margin-top: 30px;
+	margin-left: 35%;
+	min-height: 8vh;
+	
+}
 	#preloader
 	{
 		background:#000 url('loader.gif') no-repeat center center;
