@@ -3,6 +3,7 @@
 }
 body{
 	overflow-x: hidden;
+	width: auto;
 }
 .carousel-item {
 	height: 100vh;
@@ -188,8 +189,20 @@ font-size: 1rem;
 .services-wrapper{
 /*	background:url("bg4.jpg");
 	background-repeat: no-repeat;
-	background-size: 1600px 900px;*/
-	background-color: #032c60;
+	background-size: 1600px 900px;
+	background-color: #032c60;*/
+	background-image: radial-gradient(
+      circle at 20% 100%,
+      rgba(184, 184, 184, 0.1) 0%,
+      rgba(184, 184, 184, 0.1) 33%,
+      rgba(96, 96, 96, 0.1) 33%,
+      rgba(96, 96, 96, 0.1) 66%,
+      rgba(7, 7, 7, 0.1) 66%,
+      rgba(7, 7, 7, 0.1) 99%
+    ),
+    linear-gradient(40deg, #040a22, #162561, #202e64, #6f7aa6);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .section2{
 	width: 100%;
@@ -281,23 +294,43 @@ font-size: 1rem;
 	color:#fff;
 }
 
+.swiper {
+	width: 650px;
+	height: 450px;
+	position: absolute;
+	/*left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -150px;*/
+  }
 
+  .swiper-slide {
+	background-position: center;
+	background-size: cover;
+  }
+
+  .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 55vh;
+	border-radius: 40px;
+  }
 
 .services-slide{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 65vh;
-	width: 100%;
+	width: 100%; 
 /*	background: #ddd;*/
 	
 }
 
-.swiper-container{
+/*.swiper-container{
 	width: 100%;
 	padding: 30px 0;
 	
-}
+} 
 
 .swiper-slide{
 	display: grid;
@@ -327,16 +360,16 @@ font-size: 1rem;
 	align-items: center;
 	text-transform: uppercase;
     transform: rotate(-5deg);
-}
+} */
 
 
 
 .swiper-pagination{
-	--swiper-pagination-color: #7f31ac;
+	--swiper-pagination-color: #fff;
 	--swiper-pagination-bullet-size: 10px;
 	--swiper-pagination-bullet-horizontal-gap: 5px;
 	
-}
+} 
 
 .projects-wrapper{
 	/*background:url("bg2.jpg");
@@ -355,10 +388,10 @@ font-size: 1rem;
 }
 .title3{
 	position: absolute;
-	bottom: 25px;
-	left: 50%;
-	transform: translate(-50%, -20%);
-	-ms-transform: translate(-50%, -20%);
+	bottom: 60px;
+	left: 40%;
+/*	transform: translate(-50%, -20%);
+	-ms-transform: translate(-50%, -20%);*/
 	width: max-content;
 	text-align: center;
 	padding: 0px 5px;
@@ -368,7 +401,8 @@ font-size: 1rem;
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
-	transition: all 0.5s linear;
+/*	transition: all 0.5s linear;*/
+	color: #fff;
 
 }
 
@@ -376,10 +410,10 @@ font-size: 1rem;
 	font-size: 0.8em;
 	font-weight: 600;
 }
-.swiper-slide-active .title3{
+/*.swiper-slide-active .title3{
 	bottom: -10px;
 	box-shadow: 0 20px 30px 2px rgba(25, 43, 206, 0.6);
-}
+}*/
 
 #topBtn{
 	position: fixed;
@@ -428,7 +462,7 @@ font-size: 1rem;
 	}*/
 	.section1{
 		width: 100%;
-		min-height: 112vh;
+		min-height: 120vh;
 	background: #cce1fb;
 	/*background: url("bg4.jpg"); 
 		background-repeat: no-repeat;
@@ -476,8 +510,20 @@ font-size: 1rem;
 	.services-wrapper{
 	/*	background:url("bg1.jpg");
 		background-repeat: no-repeat;
-		background-size: 1600px 1100px; */
-		background-color: #032c60;
+		background-size: 1600px 1100px; 
+		background-color: #032c60;*/
+		background-image: radial-gradient(
+      circle at 20% 100%,
+      rgba(184, 184, 184, 0.1) 0%,
+      rgba(184, 184, 184, 0.1) 33%,
+      rgba(96, 96, 96, 0.1) 33%,
+      rgba(96, 96, 96, 0.1) 66%,
+      rgba(7, 7, 7, 0.1) 66%,
+      rgba(7, 7, 7, 0.1) 99%
+    ),
+    linear-gradient(40deg, #040a22, #162561, #202e64, #6f7aa6);
+  background-repeat: no-repeat;
+  background-size: cover;
 	}
     .section2{
 		width: 100%;
@@ -504,20 +550,28 @@ font-size: 1rem;
 
 	.button2{
 		margin-top: 30px;
-		margin-left: 30%;
+		margin-left: 27%;
 		min-height: 8vh;
 	}
 	
-	.swiper-slide{
-		width: 300px;
+/*	.swiper-slide{
+		width:250px;
 	}
 
 	.swiper-pagination{
 		--swiper-pagination-color: #7f31ac;
 		--swiper-pagination-bullet-size: 10px;
 		--swipper-pagination-bullet-horizontal-gap: 5px;
-	}
-	
+	}*/
+	.swiper {
+		width: 370px;
+		height: 450px;
+		position: absolute;
+		/*left: 50%;
+		top: 50%;
+		margin-left: -150px;
+		margin-top: -150px;*/
+	  }
 	#preloader
 	{
 		background:#000 url('loader.gif') no-repeat center center;
@@ -537,6 +591,3 @@ font-size: 1rem;
 	}
 
 }
-
-
-
