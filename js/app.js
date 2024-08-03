@@ -1,4 +1,4 @@
-var swiper1 = new Swiper(".swiper1",{
+/*var swiper1 = new Swiper(".swiper1",{
     effect: "coverflow",
     grabCursor: true,
     initialSlide: 1,
@@ -39,7 +39,29 @@ var swiper2 = new Swiper(".swiper2",{
     pagination: {
         el: ".swiper-pagination",
     },
-}); 
+}); */
+
+var swiper = new Swiper(".mySwiper", {
+    effect: "cube",
+    grabCursor: true,
+    cubeEffect: {
+      shadow: false,
+      slideShadows: true,
+      shadowOffset: 20,
+      shadowScale: 0.94,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+
+  var swiper = new Swiper(".mySwiper1", {
+    direction: "vertical",
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
 
 $(document).ready(function(){
     $(window).scroll(function(){
